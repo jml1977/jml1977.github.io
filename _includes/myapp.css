@@ -1,0 +1,50 @@
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+header {
+	background: #202D44;
+	color: white;
+	min-height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 150%;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+/* contacts */
+
+.contacts ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
+.contacts ul li {
+	display: inline;
+}
+
+.contacts ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+}
+
+h1 {
+	font-size: 130%;
+	font-weight: bold;
+}
+
+/*
+202D44
+FC4349
+6DBCDB
+D7DADB
+FFFFFF
+*/

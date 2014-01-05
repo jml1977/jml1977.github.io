@@ -1,0 +1,6 @@
+---
+foo: bar
+---
+{% include normalize.css %}
+{% include unsemantic-grid-responsive.css %}
+{% include myapp.css %}

@@ -1,0 +1,6 @@
+pygments: true
+
+name: James Lowery
+description: James Lowery's personal website
+url: http://www.james-lowery.ch/
+exclude: ["Gemfile", "Gemfile.lock"]

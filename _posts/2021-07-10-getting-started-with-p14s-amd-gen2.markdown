@@ -5,15 +5,13 @@ date:   2021-07-10 16:48:29 +0200
 categories: lenovo p14s amd gen2 wifi
 ---
 
-New laptop day!
-
-Installed Fedora on my new Lenovo P14S AMD Gen2.  As expected, Wifi didn't work out-of-the-box because of the Realtek 8852AE Wireless chip, so the initial setup and updates were done over Ethernet.
+New laptop day!  As expected, Wifi didn't work on my new Lenovo P14S AMD Gen2 due to the Realtek 8852AE Wireless chip.  Here's the steps I used to get it working.
 
 The following got Wifi working for me, and is based on a couple of difference places:
 - [Driver for Realtek 8852AE](https://github.com/lwfinger/rtw89)
 - [Fedora Sysadmin Manual](https://docs.fedoraproject.org/en-US/fedora/f32/system-administrators-guide/kernel-module-driver-configuration/Working_with_Kernel_Modules/)
 
-Firstly, install some dependencies
+Firstly, install some dependencies.  These were done using Ethernet.
 
 {% highlight shell %}
 sudo yum install openssl kernel-devel mokutil keyutils
